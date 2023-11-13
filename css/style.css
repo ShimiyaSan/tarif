@@ -121,7 +121,7 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 .hero .row .content {
@@ -195,7 +195,7 @@ svg {
 }
 
 .list .list-menu .row .table {
-  margin: 3rem;
+  margin: 2rem;
 }
 
 .list .list-menu .row .table caption {
@@ -398,6 +398,10 @@ footer .credit a {
     justify-content: start;
   }
 
+  .hero  .row .content{
+    width: 75vw;
+  }
+
   .hero .row .content h1 {
     font-size: 2rem;
   }
@@ -405,6 +409,12 @@ footer .credit a {
   .hero .row .img img {
     width: 30vw;
   }
+
+  th, td {
+    font-size: 1rem;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+}
 }
 
 /* mobile */
