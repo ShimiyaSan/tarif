@@ -204,9 +204,9 @@ svg {
 
 th,
 td {
-  font-size: medium;
+  font-size: 1rem;
   border: 2px solid rgb(255, 255, 255);
-  padding: 15px;
+  padding: 10px;
 }
 
 /* contact */
@@ -409,12 +409,6 @@ footer .credit a {
   .hero .row .img img {
     width: 30vw;
   }
-
-  th, td {
-    font-size: 1rem;
-    border: 2px solid rgb(255, 255, 255);
-    padding: 10px;
-}
 }
 
 /* mobile */
